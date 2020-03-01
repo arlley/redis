@@ -1,0 +1,14 @@
+server:
+  port: 63221
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/redis?serverTimezone=Asia/Shanghai
+  redis:
+    host: 192.168.64.10
+    timeout: 20000
+
+
+
